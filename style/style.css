@@ -1,0 +1,220 @@
+body {
+    background-image: url(../img/Rectangle\ 1.png);
+    background-color: #cccccc;
+   }
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header div a{
+    padding: 5px 10px;
+    color: black;
+    
+}
+
+
+.gilaki{
+    margin-left: 660px;
+    margin-top: -45px;
+}
+
+.text2{
+    margin-left: 980px;
+    margin-top: -16px;
+}
+.text3{
+    margin-left: 1190px;
+    margin-top: -20px;
+}
+
+.lim{
+    width: 227px;
+    height: 70px;
+    background-color: rgba(196, 196, 196, 1);
+    border-radius: 0px 50px;
+    margin-left: 638px;
+    margin-top: 50px;
+}
+.lim:hover{
+    background-color: rgba(121, 179, 49, 1);
+}
+.lim1{
+    width: 126px;
+    height: 70px;
+    background-color: rgba(196, 196, 196, 1);
+    border-radius: 0px 50px;
+    margin-left: 950px;
+    margin-top: -69px;
+}
+.lim1:hover{
+    background-color:  rgba(121, 179, 49, 1);
+}
+.lim2{
+    width: 80px;
+    height: 70px;
+    background-color: rgba(196, 196, 196, 1);
+    border-radius: 0px 50px;
+    margin-left: 1160px;
+    margin-top: -69px;
+}
+.lim2:hover{
+    background-color:  rgba(121, 179, 49, 1);
+}
+.otxi{
+    width: 400px;
+    height: 200px;
+    /* background-color: rgb(33, 147, 147); */
+    margin-left: 800px;
+    margin-top: 150px;
+}
+.wre{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(121, 179, 49, 1);
+    border-radius: 50%;
+    position: relative;
+    animation: wre 3s infinite;
+}
+@keyframes wre {
+    0%{top:0; left: 0;}
+    25%{top:0; left:400px;}
+    50%{top:200px; left:400px;}
+    75%{top:200px; left:0;}
+    100%{top:0; left: 0;}
+}
+.aqcia{
+    margin-left: 850px;
+    margin-top: -150px;
+
+}
+
+
+
+.dro{
+    font-size: 36px;
+    margin-left: 890px;
+    margin-top: 20px;
+}
+
+.box{
+    width: 1px;
+    height: 429px;
+    background-color: black;
+    margin-left: 900px;
+    margin-top: 200px;
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 35px;
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: -200px;
+    margin-left: 830px;
+}
+.fotoli:hover{
+background-color: green;
+}
+.fotoli2{
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 35px;
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: -300px;
+    margin-left: 830px;
+}
+
+.fotoli2:hover{
+    background-color: green;
+}
+
+.fotoli3{
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 35px;
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: 50px;
+    margin-left: 901px;
+    transform: rotate(90deg);
+}
+
+.fotoli3:hover{
+    background-color: green;
+}
+
+.fotoli4{
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 35px;
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: 150px;
+    margin-left: 901px;
+    transform: rotate(90deg); 
+}
+.fotoli4:hover{
+    background-color: green;
+}
+
+.b1{
+    width: 350px;
+    margin-top: -400px;
+    margin-left: 406px;
+    color:  black;
+}
+
+.b1:hover{
+    color: green;
+}
+
+.b2{
+    width: 400px;
+    margin-top: ;
+    margin-left: 338px;
+    color: black;
+    margin-top: 200px;
+}
+.b2:hover{
+    color:  green;
+}
+.b3{
+    width: 350px;
+    margin-top: -150px;
+    margin-left: 990px;
+    color: black;
+}
+.b3:hover{
+    color: green;
+}
+
+.b4{
+    width: 350px;
+    margin-top: 170px;
+    margin-left: 980px;
+    color: black;
+}
+.b4:hover{
+    color: green;
+}
+
+
+@media only screen and (max-width: 390px) {
+    body {
+      background-color: lightblue;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: rgb(5, 255, 59);
+    }
+    .header ul{
+        width: 100%;
+    }
+    
+}
